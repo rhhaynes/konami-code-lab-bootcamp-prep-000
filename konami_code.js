@@ -3,7 +3,7 @@ let index = 0;
 
 function init() {
 
-  document.body.addEventListern('keydown',onKeyDownHandler(e) {
+  document.body.addEventListener('keydown',onKeyDownHandler(e) {
     const key = parseInt(e.detail || e.which);
     if (key === alphabet[index]) {
       index++;
