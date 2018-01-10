@@ -1,8 +1,8 @@
-const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
+const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
 
 function init() {
 
-  const alphabet = [65 66 67];
+  const alphabet = code;
 
   let index = 0;
 
