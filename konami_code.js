@@ -6,7 +6,7 @@ function init() {
   let index = 0;
 
   function onKeyDownHandler(e) {
-    const key = parseInt(e.detail || e.which);
+    const key = parseInt(e.detail || e.which || e.location);
     if (key === alphabet[index]) {
       index++;
       if (index === alphabet.length) {
