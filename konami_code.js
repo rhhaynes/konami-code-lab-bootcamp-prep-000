@@ -18,4 +18,9 @@ function init() {
     return index;
   }
 
+  if (index === alphabet.length){
+    alert("Hurray!");
+    index = 0;
+  }
+
 }
